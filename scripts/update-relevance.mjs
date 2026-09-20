@@ -1,4 +1,4 @@
-// Manual, bounded generation. No public endpoint can spend the API key.
+// Scheduled or manual, bounded generation. No public endpoint can spend the API key.
 import {readFile,writeFile,rename} from 'node:fs/promises';
 import {sources} from '../lib/sources.mjs';
 import {downloadFeed,parseFeed} from '../lib/feed.mjs';
