@@ -82,3 +82,9 @@ Translations live in `i18n.ts`. Static copy uses explicit `data-i18n` markers, a
 GitHub Actions refreshes the snapshot daily at 06:23 UTC (08:23 Bratislava in summer, 07:23 in winter). Scheduled runs can be delayed by GitHub. The repository secret `TYPESAFE_API_KEY` is available only to the generation step. The workflow runs tests before committing the snapshot, and the existing Vercel integration deploys main. A maintainer can also refresh it locally with `npm run update:relevance` after setting `TYPESAFE_API_KEY` in an ignored `.env`. The command sends only public feed titles and summaries to TypeSafe, makes at most 30 API calls, reuses matching scores from the last 24 hours, and preserves the previous snapshot if a source or API call fails. Each run can spend API credit, with at most 30 requests and no automatic retries. There is no public API spending endpoint. Review and publish the resulting `relevance.json` through the usual Git deployment.
 
 The API key stays in the local environment or GitHub Actions secrets. Visitors download public scores and trigger no model calls. Important labels, browser alerts and hosted digests continue to use the existing rules.
+
+## Why Jev is optional
+
+Jev scores relevance for an alternative reading order. Code handles exact rules, and the original links stay visible. A model score is not verification of a release or a reason to send a notification. The default importance and push rules remain deterministic.
+
+I’m also trying small browser-action experiments separately. Those are not a browser agent shipped inside Khonrelay.
