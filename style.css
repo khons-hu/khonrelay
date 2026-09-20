@@ -19,3 +19,6 @@ fieldset>button{margin:0 6px 6px 0}
 @media (pointer:coarse){input:not([type=checkbox]):not([type=radio]),select,textarea{font-size:16px!important}button,select{min-height:44px}dialog{overflow-y:auto;overscroll-behavior:contain}}
 
 @media(max-width:600px){header{height:auto;min-height:80px;flex-wrap:wrap;gap:12px;padding:18px 0}.tools{flex-wrap:wrap;min-width:0;max-width:100%}}
+/* Long translated titles must yield space to the close control. */
+.dialog-head{min-width:0}.dialog-head h2{min-width:0;overflow-wrap:anywhere}.dialog-head button{flex-shrink:0}
+@media(max-width:380px){dialog{padding:20px}.dialog-head h2{font-size:24px;hyphens:auto}}
