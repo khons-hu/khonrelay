@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { validEndpoint,validateSubscription,validatePreferences,isQuiet,secureEqual,readBody } from '../lib/push.mjs';
+import { configured,validEndpoint,validateSubscription,validatePreferences,isQuiet,secureEqual,readBody } from '../lib/push.mjs';
 import handler from '../api/push.mjs';
 import digest from '../api/digest.mjs';
 test('push endpoints are restricted to actual HTTPS push hosts',()=>{
@@ -35,4 +35,15 @@ test('mutation and cron reject unauthenticated calls before storage access',asyn
   for(const headers of [{},{origin:'https://evil.com','x-enrollment-key':'test-secret'},{origin:'https://example.com','x-enrollment-key':'wrong'}]){const res=response();await handler({method:'POST',headers},res);assert.equal(res.statusCode,403);}
   const res=response();await digest({method:'GET',headers:{authorization:'Bearer wrong'}},res);assert.equal(res.statusCode,403);
  } finally {for(const k of names) if(saved[k]===undefined) delete process.env[k];else process.env[k]=saved[k];}
+});
+
+test('Vercel Marketplace Redis aliases configure storage without copying credentials',()=>{
+ const names=['UPSTASH_REDIS_REST_URL','UPSTASH_REDIS_REST_TOKEN','KV_REST_API_URL','KV_REST_API_TOKEN','VAPID_PUBLIC_KEY','VAPID_PRIVATE_KEY','VAPID_SUBJECT','CRON_SECRET','APP_ORIGIN','PUSH_ENROLLMENT_KEY'];
+ const saved=Object.fromEntries(names.map(k=>[k,process.env[k]]));
+ try {
+  names.forEach(k=>process.env[k]='test-only');
+  delete process.env.UPSTASH_REDIS_REST_URL; delete process.env.UPSTASH_REDIS_REST_TOKEN;
+  assert.equal(configured(),true);
+  delete process.env.KV_REST_API_TOKEN; assert.equal(configured(),false);
+ } finally { for(const k of names) if(saved[k]===undefined) delete process.env[k];else process.env[k]=saved[k]; }
 });

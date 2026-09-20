@@ -1,5 +1,7 @@
 # Quiet Signal
 
+[Open app ↗](https://quiet-signal-khonsu.vercel.app/)
+
 A small inbox for AI updates. OpenAI and DeepMind news, Codex and Claude Code releases, and OpenAI service status. Read the original, save what matters, close the tab.
 
 ## What works
