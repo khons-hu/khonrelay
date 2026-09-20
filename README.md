@@ -67,3 +67,9 @@ Original project code is available under the [MIT License](LICENSE), copyright �
 [Download the signed APK](https://github.com/khons-hu/khonrelay/releases/tag/android-v1.0.0-preview.1) · [Build instructions](android/README.md) · [Verification](android/VERIFICATION.md)
 
 Android 8.0+ with a current TWA-capable browser (Chrome recommended). This small package opens the live web app. First load and server data require internet. Build, lint and signature checks pass, but installation and flows on an Android device have not yet been verified. No Google Play release or additional background notification service.
+
+### Interface languages
+
+The header language selector supports English, Slovenčina, Magyar, Polski, Deutsch, Español and Čeština. It remembers this browser's choice independently of imported backups. On first visit it uses a supported browser language, falling back to English. UI copy, status messages and local dates/counts follow this preference. Feed titles, summaries, source names, personal notes and reminder names remain in their original language. Hosted digest payloads are unchanged.
+
+Translations live in `i18n.ts`. Static copy uses explicit `data-i18n` markers, and dynamic UI calls `t()`. Missing translations fall back to their English keys. The build and offline shell include the locale module.
