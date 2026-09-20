@@ -1,7 +1,7 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-09-20T22:41:41.412Z",
+  "generatedAt": "2026-09-20T22:47:45.130Z",
   "items": [
     {
       "id": "openai:https://openai.com/index/australian-youth-safety-blueprint",
@@ -168,7 +168,7 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
       "title": "We are seeing elevated error rates across API models",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Images (Operational) Audio (Operational) Fine-tuning (Operational) Embeddings (Operational) Responses (Operational) Login (Operational) Sora (Operational) Batch (Operational) Chat Completions (Operational) Realtime (Operational) Files (Operational) Moderations (Operational)",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Batch (Operational) Chat Completions (Operational) Audio (Operational) Fine-tuning (Operational) Realtime (Operational) Files (Operational) Images (Operational) Embeddings (Operational) Moderations (Operational) Responses (Operational) Login (Operational) Sora (Operational)",
       "score": 0.94
     },
     {
