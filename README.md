@@ -26,6 +26,14 @@ npm start
 
 Open http://127.0.0.1:4175/. `npm run build` creates the static UI in `dist/`. Vercel serves the functions from `api/`. Feed failures preserve cached browser items with an explicit warning. Source checks happen on open, manual refresh and every 15 minutes while visible.
 
+## Back up or move to another browser
+
+In Preferences, export a JSON backup before clearing site data or switching browsers. On the other browser, open Preferences and import that file (up to 3 MB).
+
+Import merges saved links, manually added links, read state and reminders with your existing data. It keeps the current theme, source selection and notification preferences. Cached feed items are fetched again rather than restored from the file. The app keeps at most 500 saved links, 500 manual links and 20 reminders.
+
+A backup can contain your private notes and saved URLs. Store it somewhere private. Browser notification permission and hosted push enrollment do not move with the file, so connect each device separately if you want notifications there.
+
 ## Hosted notifications
 
 See [setup and privacy details](docs/PUSH.md). Designed for Vercel Hobby's daily cron and a small free-tier Upstash Redis database. Availability and quotas depend on provider terms. No provider account, database, environment secrets or live delivery are included just by deploying the source. The UI reports whether the backend is configured. A configured flag does not prove successful delivery: use the test button and verify a notification with the app closed.
