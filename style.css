@@ -17,3 +17,5 @@ fieldset>button{margin:0 6px 6px 0}
 
 /* Keep touch form text readable without Safari focus zoom. Pinch zoom stays enabled. */
 @media (pointer:coarse){input:not([type=checkbox]):not([type=radio]),select,textarea{font-size:16px!important}button,select{min-height:44px}dialog{overflow-y:auto;overscroll-behavior:contain}}
+
+@media(max-width:600px){header{height:auto;min-height:80px;flex-wrap:wrap;gap:12px;padding:18px 0}.tools{flex-wrap:wrap;min-width:0;max-width:100%}}
