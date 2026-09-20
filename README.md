@@ -1,4 +1,4 @@
-# Quiet Signal
+# Khonrelay
 
 [Open app ↗](https://quiet-signal-khonsu.vercel.app/)
 
@@ -57,3 +57,7 @@ RSS content belongs to its publishers. Titles and bounded excerpts link to origi
 TypeScript build, parser/URL-safety/cache tests, notification authorization and quiet-hour tests. Desktop dark and mobile light layouts reviewed. Save, read/unread, filtering and persistence tested in browser. Live upstream feeds and combined RSS parse successfully. Hosted closed-app delivery remains unverified until infrastructure is connected.
 
 Production status (2026-09-20): all five feeds and combined RSS respond successfully. Vercel GitHub autodeploy is verified. Free Redis and the daily digest are configured, and an authenticated digest request succeeds. Brave returned a push-service registration error on the test device, so device enrollment and closed-app delivery are not yet verified.
+
+## License
+
+Original project code is available under the [MIT License](LICENSE), copyright © 2026 Patrick Obrtal. Third-party components retain their own licenses.

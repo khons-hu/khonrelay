@@ -1,5 +1,5 @@
 {
-  "name": "quiet-signal",
+  "name": "khonrelay",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -14,5 +14,6 @@
   },
   "devDependencies": {
     "typescript": "^6.0.3"
-  }
+  },
+  "license": "MIT"
 }
