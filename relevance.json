@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "model": "jev-1.13.0",
+  "generatedAt": "2026-09-20T22:41:41.412Z",
+  "items": [
+    {
+      "id": "openai:https://openai.com/index/australian-youth-safety-blueprint",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "score": 0.19
+    },
+    {
+      "id": "openai:https://openai.com/index/cooley-gopublic",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "score": 0.32
+    },
+    {
+      "id": "openai:https://openai.com/index/astra-for-law",
+      "title": "Introducing Astra for Law",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "score": 0.24
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "title": "Helping older adults use AI in everyday life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "score": 0.41
+    },
+    {
+      "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+      "title": "Reimagining advertising with AI",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "score": 0.17
+    },
+    {
+      "id": "openai:https://openai.com/index/hex-gpt-6-astra",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "score": 0.59
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "summary": "",
+      "score": 0.67
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "score": 0.28
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "summary": "",
+      "score": 0.46
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "",
+      "score": 0.3
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "",
+      "score": 0.65
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "title": "Introducing agentic video understanding with Gemini",
+      "summary": "",
+      "score": 0.66
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.11",
+      "title": "rust-v0.156.0-alpha.11",
+      "summary": "Release 0.156.0-alpha.11",
+      "score": 0.61
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.10",
+      "title": "0.156.0-alpha.10",
+      "summary": "Release 0.156.0-alpha.10",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.9",
+      "title": "0.156.0-alpha.9",
+      "summary": "Release 0.156.0-alpha.9",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.8",
+      "title": "0.156.0-alpha.8",
+      "summary": "Release 0.156.0-alpha.8",
+      "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.7",
+      "title": "0.156.0-alpha.7",
+      "summary": "Release 0.156.0-alpha.7",
+      "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.6",
+      "title": "0.156.0-alpha.6",
+      "summary": "Release 0.156.0-alpha.6",
+      "score": 0.6
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+      "title": "v2.1.278",
+      "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead ( CLAUDE_CODE_AUTO_MODE_SERVER=0 opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing Added an Auto mode server row to /status showing whether this session's auto mode classifier runs on the server",
+      "score": 0.95
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "title": "v2.1.277",
+      "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) Added CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1 for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally Added an optional headers: map on Claude apps gateway upstreams, to send static headers to a proxy you run in front of a provider Added a line saying a background task's update is waiting when it finishes w",
+      "score": 0.96
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+      "title": "v2.1.276",
+      "summary": "What's changed Fixed every request failing with 400 … Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
+      "score": 0.91
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+      "title": "v2.1.275",
+      "summary": "What's changed Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and /status shows it Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that interrupts the current turn and sends all queued messages at once; sent and queued messages show in gray until the model receives them Added a startup warning when a configured otelHeadersHelper fails, so sessions that silently export no telemetry are noticed Added syncing of the skills and plugins enabled on your claude.ai account to terminal sessions signed in with it;",
+      "score": 0.95
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+      "title": "v2.1.274",
+      "summary": "What's changed Added a visible warning when memory usage is critical, with steps to free memory or restart safely Added CLAUDE_CODE_MCP_STARTUP_WAIT_MS to bound how long the first non-interactive turn waits for connecting MCP servers ( 0 = don't wait) Added effort attribute to the claude_code.llm_request OpenTelemetry trace span, matching the api_request event Added claude_code.managed_settings_resolved OTel event: managed-settings sources and policy helper state; redacted settings and digests with OTEL_LOG_MANAGED_SETTINGS=1 Added store.connect_timeout_seconds to the Claude apps gateway confi",
+      "score": 0.95
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "title": "v2.1.273",
+      "summary": "What's changed Added x-claude-code-request-class , x-claude-code-agent-type , x-claude-code-prev-tool-durations , x-claude-code-compaction and x-claude-code-context-compacted request headers for LLM gateways; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added a notification when an MCP server disconnects mid-session and automatic reconnection gives up, pointing at /mcp Added forking a session started with claude --remote-control or /remote-control from the Claude app; the fork runs as a background session on your computer Fixed Bash commands the permission checker cannot fully analyze skippi",
+      "score": 0.96
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2VA7X37P1ASADSNZ1CG4N4D",
+      "title": "Overbilling for OpenAI-hosted containers in the Agent API",
+      "summary": "Status: Resolved All impacted services have now fully recovered.",
+      "score": 0.89
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T",
+      "title": "Delayed support responses",
+      "summary": "Status: Resolved All impacted services have now fully recovered.",
+      "score": 0.85
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2VBZB1RYSMXHZNRA25ZJ36X",
+      "title": "SSO sign-in and SCIM provisioning issues",
+      "summary": "Status: Resolved All impacted services have now fully recovered.",
+      "score": 0.84
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
+      "title": "We are seeing elevated error rates across API models",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Images (Operational) Audio (Operational) Fine-tuning (Operational) Embeddings (Operational) Responses (Operational) Login (Operational) Sora (Operational) Batch (Operational) Chat Completions (Operational) Realtime (Operational) Files (Operational) Moderations (Operational)",
+      "score": 0.94
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2RC0WHGTX8EHDH7D60JJ7FC",
+      "title": "Elevated errors affecting ChatGPT Work mode",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational)",
+      "score": 0.91
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2NRHTYAM3K3M93X1D068MCY",
+      "title": "Elevated errors in ChatGPT Work",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational)",
+      "score": 0.9
+    }
+  ]
+}

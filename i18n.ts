@@ -1,5 +1,7 @@
 export const languages:Record<string,string>={en:'English',sk:'Slovenčina',hu:'Magyar',pl:'Polski',de:'Deutsch',es:'Español',cs:'Čeština'};
 export const catalog:Record<string,string[]>={
+"Relevant first · preview":["Relevantné najprv · náhľad", "Releváns előre · előnézet", "Najpierw trafne · podgląd", "Relevantes zuerst · Vorschau", "Relevantes primero · vista previa", "Relevantní nejdřív · náhled"],
+"Optional Jev reading order. No posts hidden. Alerts stay unchanged. Unavailable or old scores use newest first.":["Voliteľné poradie od Jev. Žiadne skryté príspevky. Upozornenia sa nemenia. Bez aktuálnych skóre platí poradie od najnovších.", "Opcionális Jev-sorrend. Nincs rejtett bejegyzés. Az értesítések változatlanok. Friss pontszámok nélkül a legújabbak vannak elöl.", "Opcjonalna kolejność Jev. Bez ukrywania wpisów i zmian powiadomień. Bez aktualnych ocen najnowsze są pierwsze.", "Optionale Jev-Reihenfolge. Keine ausgeblendeten Beiträge. Benachrichtigungen bleiben gleich. Ohne aktuelle Bewertungen stehen neue Beiträge zuerst.", "Orden opcional de Jev. No oculta publicaciones ni cambia avisos. Sin puntuaciones actuales, lo más reciente aparece primero.", "Volitelné pořadí od Jev. Žádné skryté příspěvky. Upozornění se nemění. Bez aktuálních skóre platí pořadí od nejnovějších."],
   "Preferences": [
     "Nastavenia",
     "Beállítások",

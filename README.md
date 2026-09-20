@@ -12,7 +12,8 @@ A small inbox for AI updates. OpenAI and DeepMind news, Codex and Claude Code re
 - Combined RSS at `/api/rss`, plus OPML source export.
 - Local manual reset reminders. These are not connected to an account.
 - Optional in-app browser notifications. Optional hosted daily Web Push backend, disabled until configured.
-- TypeScript UI, no frontend framework, no model API calls, no analytics.
+- Optional Jev relevance ordering from a published snapshot. Nothing is hidden and notification rules are unchanged.
+- TypeScript UI, no frontend framework, no visitor-triggered model API calls, no analytics.
 
 Tibo's X account is a direct link. Users can save X posts manually. Automatic X ingestion is not implemented. Saved links are not automatically verified. Personal Codex limits/reset credits are not connected, and the app never redeems credits.
 
@@ -73,3 +74,11 @@ Android 8.0+ with a current TWA-capable browser (Chrome recommended). This small
 The header language selector supports English, Slovenčina, Magyar, Polski, Deutsch, Español and Čeština. It remembers this browser's choice independently of imported backups. On first visit it uses a supported browser language, falling back to English. UI copy, status messages and local dates/counts follow this preference. Feed titles, summaries, source names, personal notes and reminder names remain in their original language. Hosted digest payloads are unchanged.
 
 Translations live in `i18n.ts`. Static copy uses explicit `data-i18n` markers, and dynamic UI calls `t()`. Missing translations fall back to their English keys. The build and offline shell include the locale module.
+
+## Optional relevance preview
+
+“Relevant first” reorders the feed using precomputed Jev scores. It is off by default. Unscored or changed items receive a neutral position. Missing or older-than-seven-day snapshots fall back to newest first. Scores cover up to six recent entries per official source, not the entire feed. This is an experimental reading aid, not a claim that the model knows which updates matter most.
+
+A maintainer can refresh it locally with `npm run update:relevance` after setting `TYPESAFE_API_KEY` in an ignored `.env`. The command sends only public feed titles and summaries to TypeSafe, makes at most 30 API calls, reuses matching scores from the last 24 hours, and preserves the previous snapshot if a source or API call fails. Each manual run can spend API credit. There is no recurring process or public API spending endpoint. Review and publish the resulting `relevance.json` through the usual Git deployment.
+
+The API key stays local. Visitors download public scores and trigger no model calls. Important labels, browser alerts and hosted digests continue to use the existing rules.

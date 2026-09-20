@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.mjs",
     "test": "npm run build && node --test tests/*.test.mjs",
-    "build": "tsc --noEmit && node build.mjs"
+    "build": "tsc --noEmit && node build.mjs",
+    "update:relevance": "node --env-file=.env scripts/update-relevance.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^5.0.0",
