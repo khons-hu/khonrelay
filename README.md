@@ -61,3 +61,9 @@ Production status (2026-09-20): all five feeds and combined RSS respond successf
 ## License
 
 Original project code is available under the [MIT License](LICENSE), copyright © 2026 Patrick Obrtal. Third-party components retain their own licenses.
+
+## Android preview
+
+[Download the signed APK](https://github.com/khons-hu/khonrelay/releases/tag/android-v1.0.0-preview.1) · [Build instructions](android/README.md) · [Verification](android/VERIFICATION.md)
+
+Android 8.0+ with a current TWA-capable browser (Chrome recommended). This small package opens the live web app. First load and server data require internet. Build, lint and signature checks pass, but installation and flows on an Android device have not yet been verified. No Google Play release or additional background notification service.

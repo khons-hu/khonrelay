@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "dev.khonsu.khonrelay",
+      "sha256_cert_fingerprints": [
+        "79:E5:DB:0D:9B:95:F3:69:14:B5:9C:BC:F9:73:9F:1A:4F:8D:F9:D9:7A:03:1E:09:5F:23:3B:DD:4C:89:E6:92"
+      ]
+    }
+  }
+]
