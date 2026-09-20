@@ -1298,9 +1298,9 @@ export const catalog:Record<string,string[]>={
   ]
 };
 const codes=['sk','hu','pl','de','es','cs'];
-export function chooseLanguage(saved:string|null,preferred:readonly string[]):string {if(saved&&Object.hasOwn(languages,saved))return saved;return preferred.map(value=>value.toLowerCase().split('-')[0]).find(value=>Object.hasOwn(languages,value))||'en';}
+export function chooseLanguage(saved:string|null,preferred:readonly string[]):string {if(saved&&Object.hasOwn(languages,saved))return saved;return preferred.map(value=>value.toLowerCase().split(/[-_]/)[0]).find(value=>Object.hasOwn(languages,value))||'en';}
 let saved:string|null=null;try{saved=localStorage.getItem('khonrelay-language');}catch{}
-export let language=chooseLanguage(saved,typeof navigator==='undefined'?[]:navigator.languages);
+export let language=chooseLanguage(saved,typeof navigator==='undefined'?[]:(navigator.languages || [navigator.language]));
 export function setLanguage(value:string){language=Object.hasOwn(languages,value)?value:'en';try{localStorage.setItem('khonrelay-language',language);}catch{}document.documentElement.lang=language;}
 export function t(key:string,values:Record<string,string|number>={}):string {const text=catalog[key]?.[codes.indexOf(language)]||key;return text.replace(/\{(\w+)\}/g,(match,name)=>String(values[name]??match));}
 export const number=(value:number)=>new Intl.NumberFormat(language).format(value);
