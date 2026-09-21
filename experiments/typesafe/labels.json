@@ -1,0 +1,245 @@
+{
+  "provenance": "Assistant-reviewed labels assigned from title and RSS summary before model evaluation. Not independently human-validated. Notify means worth attention at publication, not permission to send a notification now.",
+  "items": [
+    {
+      "id": "openai:https://openai.com/index/australian-youth-safety-blueprint",
+      "category": "other",
+      "action": "skip",
+      "ambiguous": false
+    },
+    {
+      "id": "openai:https://openai.com/index/cooley-gopublic",
+      "category": "other",
+      "action": "skip",
+      "ambiguous": false
+    },
+    {
+      "id": "openai:https://openai.com/index/astra-for-law",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "category": "other",
+      "action": "skip",
+      "ambiguous": false
+    },
+    {
+      "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+      "category": "release",
+      "action": "show",
+      "ambiguous": true
+    },
+    {
+      "id": "openai:https://openai.com/index/hex-gpt-6-astra",
+      "category": "other",
+      "action": "skip",
+      "ambiguous": false
+    },
+    {
+      "id": "openai:https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "category": "other",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "openai:https://openai.com/index/model-misalignment-reporting-framework",
+      "category": "research",
+      "action": "show",
+      "ambiguous": true
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "category": "release",
+      "action": "notify",
+      "ambiguous": false
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "category": "research",
+      "action": "show",
+      "ambiguous": true
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "category": "other",
+      "action": "show",
+      "ambiguous": true
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "category": "release",
+      "action": "notify",
+      "ambiguous": false
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "category": "release",
+      "action": "notify",
+      "ambiguous": true
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "category": "release",
+      "action": "notify",
+      "ambiguous": true
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "category": "research",
+      "action": "show",
+      "ambiguous": true
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.11",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.10",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.9",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.8",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.7",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.6",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.5",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.4",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+      "category": "release",
+      "action": "notify",
+      "ambiguous": false
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "category": "release",
+      "action": "notify",
+      "ambiguous": false
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+      "category": "release",
+      "action": "notify",
+      "ambiguous": false
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+      "category": "release",
+      "action": "notify",
+      "ambiguous": true
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+      "category": "release",
+      "action": "show",
+      "ambiguous": true
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "category": "release",
+      "action": "show",
+      "ambiguous": true
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+      "category": "release",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+      "category": "release",
+      "action": "notify",
+      "ambiguous": true
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2VA7X37P1ASADSNZ1CG4N4D",
+      "category": "outage",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T",
+      "category": "outage",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2VBZB1RYSMXHZNRA25ZJ36X",
+      "category": "outage",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
+      "category": "outage",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2RC0WHGTX8EHDH7D60JJ7FC",
+      "category": "outage",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2NRHTYAM3K3M93X1D068MCY",
+      "category": "outage",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2KQNE5C42NEZPX6V01NHH5W",
+      "category": "outage",
+      "action": "show",
+      "ambiguous": false
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2JZR57HRQTKQGTCWG31M3AS",
+      "category": "outage",
+      "action": "skip",
+      "ambiguous": false
+    }
+  ]
+}

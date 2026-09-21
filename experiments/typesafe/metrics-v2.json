@@ -1,0 +1,116 @@
+{
+  "original": {
+    "count": 40,
+    "agreement": 27,
+    "baselineAgreement": 29,
+    "expectedAlerts": 9,
+    "correctAlerts": 4,
+    "falseAlerts": 2,
+    "disagreements": [
+      {
+        "title": "How Cooley is accelerating IPO work with ChatGPT",
+        "expected": "skip",
+        "actual": "show"
+      },
+      {
+        "title": "Introducing Astra for Law",
+        "expected": "show",
+        "actual": "skip"
+      },
+      {
+        "title": "Helping older adults use AI in everyday life",
+        "expected": "skip",
+        "actual": "show"
+      },
+      {
+        "title": "Reimagining advertising with AI",
+        "expected": "show",
+        "actual": "skip"
+      },
+      {
+        "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+        "expected": "skip",
+        "actual": "show"
+      },
+      {
+        "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "expected": "notify",
+        "actual": "show"
+      },
+      {
+        "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+        "expected": "show",
+        "actual": "skip"
+      },
+      {
+        "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+        "expected": "notify",
+        "actual": "show"
+      },
+      {
+        "title": "Introducing agentic video understanding with Gemini",
+        "expected": "notify",
+        "actual": "show"
+      },
+      {
+        "title": "Gemini Omni 1.1 Flash lets you build with more control",
+        "expected": "notify",
+        "actual": "show"
+      },
+      {
+        "title": "v2.1.276",
+        "expected": "notify",
+        "actual": "show"
+      },
+      {
+        "title": "v2.1.274",
+        "expected": "show",
+        "actual": "notify"
+      },
+      {
+        "title": "v2.1.273",
+        "expected": "show",
+        "actual": "notify"
+      }
+    ]
+  },
+  "syntheticChallenge": {
+    "count": 20,
+    "agreement": 15,
+    "baselineAgreement": 6,
+    "expectedAlerts": 9,
+    "correctAlerts": 5,
+    "falseAlerts": 0,
+    "disagreements": [
+      {
+        "title": "Nový programovací agent",
+        "expected": "notify",
+        "actual": "show"
+      },
+      {
+        "title": "Új fejlesztői eszköz",
+        "expected": "notify",
+        "actual": "show"
+      },
+      {
+        "title": "Nowy model",
+        "expected": "notify",
+        "actual": "show"
+      },
+      {
+        "title": "API blocking regression fixed",
+        "expected": "notify",
+        "actual": "show"
+      },
+      {
+        "title": "A new release",
+        "expected": "show",
+        "actual": "skip"
+      }
+    ]
+  },
+  "inputTokens": 30497,
+  "estimatedUSD": 0.001280874,
+  "medianMs": 264,
+  "p95Ms": 339
+}

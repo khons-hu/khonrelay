@@ -1,0 +1,40 @@
+{
+  "fresh": {
+    "count": 10,
+    "agreement": 7,
+    "baselineAgreement": 7,
+    "expectedAlerts": 2,
+    "correctAlerts": 1,
+    "falseAlerts": 1,
+    "disagreements": [
+      {
+        "title": "How Fyxer built an AI executive assistant people trust",
+        "expected": "skip",
+        "actual": "show"
+      },
+      {
+        "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+        "expected": "notify",
+        "actual": "show"
+      },
+      {
+        "title": "v2.1.270",
+        "expected": "show",
+        "actual": "notify"
+      }
+    ]
+  },
+  "diagnostic": {
+    "count": 2,
+    "agreement": 2,
+    "baselineAgreement": 2,
+    "expectedAlerts": 2,
+    "correctAlerts": 2,
+    "falseAlerts": 0,
+    "disagreements": []
+  },
+  "inputTokens": 6445,
+  "estimatedUSD": 0.00027069,
+  "medianMs": 311,
+  "p95Ms": 815
+}

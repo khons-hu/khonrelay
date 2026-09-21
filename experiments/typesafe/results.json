@@ -1,0 +1,1846 @@
+{
+  "generatedAt": "2026-09-20T22:33:44.053Z",
+  "labelProvenance": "Assistant-reviewed labels assigned from title and RSS summary before model evaluation. Not independently human-validated. Notify means worth attention at publication, not permission to send a notification now.",
+  "rows": [
+    {
+      "id": "openai:https://openai.com/index/australian-youth-safety-blueprint",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Title contains a release, availability or product-change signal."
+      },
+      "reference": {
+        "id": "openai:https://openai.com/index/australian-youth-safety-blueprint",
+        "category": "other",
+        "action": "skip",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "other",
+          "confidence": 0.93,
+          "probabilities": {
+            "outage": 0,
+            "other": 0.95,
+            "research": 0,
+            "release": 0.05,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "skip",
+          "confidence": 0.84,
+          "probabilities": {
+            "notify": 0,
+            "show": 0.1,
+            "skip": 0.9
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 712,
+        "output_tokens": 89
+      },
+      "latencyMs": 802
+    },
+    {
+      "id": "openai:https://openai.com/index/cooley-gopublic",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "url": "https://openai.com/index/cooley-gopublic",
+      "baseline": {
+        "category": "update",
+        "important": false,
+        "reason": "General update. No priority rule matched."
+      },
+      "reference": {
+        "id": "openai:https://openai.com/index/cooley-gopublic",
+        "category": "other",
+        "action": "skip",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "other",
+          "confidence": 0.98,
+          "probabilities": {
+            "release": 0.01,
+            "research": 0,
+            "opinion": 0,
+            "other": 0.99,
+            "outage": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "skip",
+          "confidence": 0.89,
+          "probabilities": {
+            "show": 0.07,
+            "skip": 0.92,
+            "notify": 0.01
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 718,
+        "output_tokens": 89
+      },
+      "latencyMs": 260
+    },
+    {
+      "id": "openai:https://openai.com/index/astra-for-law",
+      "title": "Introducing Astra for Law",
+      "url": "https://openai.com/index/astra-for-law",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Title contains a release, availability or product-change signal."
+      },
+      "reference": {
+        "id": "openai:https://openai.com/index/astra-for-law",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 0.97,
+          "probabilities": {
+            "research": 0,
+            "opinion": 0,
+            "release": 0.98,
+            "other": 0.02,
+            "outage": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "skip",
+          "confidence": 0.5,
+          "probabilities": {
+            "skip": 0.66,
+            "show": 0.33,
+            "notify": 0.01
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 713,
+        "output_tokens": 89
+      },
+      "latencyMs": 280
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "baseline": {
+        "category": "update",
+        "important": false,
+        "reason": "General update. No priority rule matched."
+      },
+      "reference": {
+        "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+        "category": "other",
+        "action": "skip",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "other",
+          "confidence": 0.99,
+          "probabilities": {
+            "opinion": 0,
+            "outage": 0,
+            "other": 0.99,
+            "research": 0,
+            "release": 0.01
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "skip",
+          "confidence": 1,
+          "probabilities": {
+            "show": 0,
+            "notify": 0,
+            "skip": 1
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 726,
+        "output_tokens": 89
+      },
+      "latencyMs": 315
+    },
+    {
+      "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "baseline": {
+        "category": "update",
+        "important": false,
+        "reason": "General update. No priority rule matched."
+      },
+      "reference": {
+        "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+        "category": "release",
+        "action": "show",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 0.72,
+          "probabilities": {
+            "research": 0,
+            "release": 0.78,
+            "opinion": 0,
+            "outage": 0,
+            "other": 0.22
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "skip",
+          "confidence": 0.81,
+          "probabilities": {
+            "show": 0.11,
+            "notify": 0.01,
+            "skip": 0.88
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 713,
+        "output_tokens": 89
+      },
+      "latencyMs": 285
+    },
+    {
+      "id": "openai:https://openai.com/index/hex-gpt-6-astra",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "url": "https://openai.com/index/hex-gpt-6-astra",
+      "baseline": {
+        "category": "update",
+        "important": false,
+        "reason": "General update. No priority rule matched."
+      },
+      "reference": {
+        "id": "openai:https://openai.com/index/hex-gpt-6-astra",
+        "category": "other",
+        "action": "skip",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "other",
+          "confidence": 0.61,
+          "probabilities": {
+            "opinion": 0,
+            "other": 0.69,
+            "outage": 0,
+            "research": 0,
+            "release": 0.31
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "skip",
+          "confidence": 0.39,
+          "probabilities": {
+            "skip": 0.59,
+            "show": 0.39,
+            "notify": 0.02
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 714,
+        "output_tokens": 89
+      },
+      "latencyMs": 299
+    },
+    {
+      "id": "openai:https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "title": "How to connect AI usage to business value",
+      "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "baseline": {
+        "category": "update",
+        "important": false,
+        "reason": "General update. No priority rule matched."
+      },
+      "reference": {
+        "id": "openai:https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+        "category": "other",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "other",
+          "confidence": 0.94,
+          "probabilities": {
+            "outage": 0,
+            "release": 0.05,
+            "research": 0,
+            "other": 0.95,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.49,
+          "probabilities": {
+            "show": 0.66,
+            "notify": 0.01,
+            "skip": 0.33
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 714,
+        "output_tokens": 89
+      },
+      "latencyMs": 281
+    },
+    {
+      "id": "openai:https://openai.com/index/model-misalignment-reporting-framework",
+      "title": "Our framework for reporting model misalignment",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "baseline": {
+        "category": "update",
+        "important": false,
+        "reason": "General update. No priority rule matched."
+      },
+      "reference": {
+        "id": "openai:https://openai.com/index/model-misalignment-reporting-framework",
+        "category": "research",
+        "action": "show",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "research",
+          "confidence": 0.83,
+          "probabilities": {
+            "opinion": 0,
+            "outage": 0,
+            "release": 0.01,
+            "other": 0.12,
+            "research": 0.87
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.96,
+          "probabilities": {
+            "notify": 0.01,
+            "skip": 0.02,
+            "show": 0.97
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 718,
+        "output_tokens": 89
+      },
+      "latencyMs": 298
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Title contains a release, availability or product-change signal."
+      },
+      "reference": {
+        "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+        "category": "release",
+        "action": "notify",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 0.97,
+          "probabilities": {
+            "release": 0.97,
+            "opinion": 0,
+            "other": 0.03,
+            "research": 0,
+            "outage": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.72,
+          "probabilities": {
+            "notify": 0.1,
+            "skip": 0.09,
+            "show": 0.81
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 696,
+        "output_tokens": 89
+      },
+      "latencyMs": 257
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "baseline": {
+        "category": "update",
+        "important": false,
+        "reason": "General update. No priority rule matched."
+      },
+      "reference": {
+        "id": "deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+        "category": "research",
+        "action": "show",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "research",
+          "confidence": 0.71,
+          "probabilities": {
+            "outage": 0,
+            "research": 0.77,
+            "release": 0.23,
+            "opinion": 0,
+            "other": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "skip",
+          "confidence": 0.46,
+          "probabilities": {
+            "notify": 0,
+            "skip": 0.64,
+            "show": 0.36
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 720,
+        "output_tokens": 89
+      },
+      "latencyMs": 299
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Title contains a release, availability or product-change signal."
+      },
+      "reference": {
+        "id": "deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 0.98,
+          "probabilities": {
+            "research": 0,
+            "release": 0.98,
+            "outage": 0,
+            "opinion": 0,
+            "other": 0.02
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "skip",
+          "confidence": 0.25,
+          "probabilities": {
+            "notify": 0.01,
+            "skip": 0.5,
+            "show": 0.49
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 698,
+        "output_tokens": 89
+      },
+      "latencyMs": 296
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "baseline": {
+        "category": "update",
+        "important": false,
+        "reason": "General update. No priority rule matched."
+      },
+      "reference": {
+        "id": "deepmind:https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+        "category": "other",
+        "action": "show",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "other",
+          "confidence": 0.91,
+          "probabilities": {
+            "research": 0.06,
+            "outage": 0,
+            "release": 0.01,
+            "opinion": 0,
+            "other": 0.93
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "skip",
+          "confidence": 0.4,
+          "probabilities": {
+            "skip": 0.61,
+            "show": 0.39,
+            "notify": 0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 688,
+        "output_tokens": 89
+      },
+      "latencyMs": 317
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Title contains a release, availability or product-change signal."
+      },
+      "reference": {
+        "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+        "category": "release",
+        "action": "notify",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 0.94,
+          "probabilities": {
+            "outage": 0,
+            "other": 0.05,
+            "research": 0,
+            "release": 0.95,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.7,
+          "probabilities": {
+            "notify": 0.1,
+            "show": 0.8,
+            "skip": 0.1
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 695,
+        "output_tokens": 89
+      },
+      "latencyMs": 292
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "title": "Introducing agentic video understanding with Gemini",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Title contains a release, availability or product-change signal."
+      },
+      "reference": {
+        "id": "deepmind:https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+        "category": "release",
+        "action": "notify",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 0.62,
+          "probabilities": {
+            "outage": 0,
+            "release": 0.69,
+            "research": 0.03,
+            "other": 0.28,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.82,
+          "probabilities": {
+            "skip": 0.1,
+            "notify": 0.02,
+            "show": 0.88
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 688,
+        "output_tokens": 89
+      },
+      "latencyMs": 268
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "baseline": {
+        "category": "update",
+        "important": false,
+        "reason": "General update. No priority rule matched."
+      },
+      "reference": {
+        "id": "deepmind:https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+        "category": "release",
+        "action": "notify",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 0.92,
+          "probabilities": {
+            "other": 0.06,
+            "release": 0.94,
+            "outage": 0,
+            "research": 0,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.67,
+          "probabilities": {
+            "notify": 0.13,
+            "skip": 0.09,
+            "show": 0.78
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 693,
+        "output_tokens": 89
+      },
+      "latencyMs": 311
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "baseline": {
+        "category": "update",
+        "important": false,
+        "reason": "General update. No priority rule matched."
+      },
+      "reference": {
+        "id": "deepmind:https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+        "category": "research",
+        "action": "show",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "research",
+          "confidence": 0.98,
+          "probabilities": {
+            "release": 0,
+            "other": 0.01,
+            "outage": 0,
+            "opinion": 0,
+            "research": 0.99
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.86,
+          "probabilities": {
+            "skip": 0.09,
+            "show": 0.91,
+            "notify": 0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 701,
+        "output_tokens": 89
+      },
+      "latencyMs": 298
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.11",
+      "title": "rust-v0.156.0-alpha.11",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.11",
+      "baseline": {
+        "category": "release",
+        "important": false,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.11",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "research": 0,
+            "outage": 0,
+            "release": 1,
+            "other": 0,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.58,
+          "probabilities": {
+            "show": 0.73,
+            "skip": 0.27,
+            "notify": 0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 703,
+        "output_tokens": 89
+      },
+      "latencyMs": 279
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.10",
+      "title": "0.156.0-alpha.10",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.10",
+      "baseline": {
+        "category": "release",
+        "important": false,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.10",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "opinion": 0,
+            "research": 0,
+            "outage": 0,
+            "other": 0,
+            "release": 1
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.96,
+          "probabilities": {
+            "show": 0.97,
+            "notify": 0,
+            "skip": 0.03
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 701,
+        "output_tokens": 89
+      },
+      "latencyMs": 322
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.9",
+      "title": "0.156.0-alpha.9",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.9",
+      "baseline": {
+        "category": "release",
+        "important": false,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.9",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "outage": 0,
+            "other": 0,
+            "research": 0,
+            "release": 1,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.97,
+          "probabilities": {
+            "notify": 0,
+            "skip": 0.02,
+            "show": 0.98
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 699,
+        "output_tokens": 89
+      },
+      "latencyMs": 306
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.8",
+      "title": "0.156.0-alpha.8",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.8",
+      "baseline": {
+        "category": "release",
+        "important": false,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.8",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "opinion": 0,
+            "outage": 0,
+            "other": 0,
+            "research": 0,
+            "release": 1
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.95,
+          "probabilities": {
+            "notify": 0,
+            "show": 0.97,
+            "skip": 0.03
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 699,
+        "output_tokens": 89
+      },
+      "latencyMs": 276
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.7",
+      "title": "0.156.0-alpha.7",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.7",
+      "baseline": {
+        "category": "release",
+        "important": false,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.7",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "opinion": 0,
+            "release": 1,
+            "outage": 0,
+            "research": 0,
+            "other": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.96,
+          "probabilities": {
+            "skip": 0.02,
+            "show": 0.98,
+            "notify": 0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 699,
+        "output_tokens": 89
+      },
+      "latencyMs": 260
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.6",
+      "title": "0.156.0-alpha.6",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.6",
+      "baseline": {
+        "category": "release",
+        "important": false,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.6",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "outage": 0,
+            "release": 1,
+            "other": 0,
+            "opinion": 0,
+            "research": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.97,
+          "probabilities": {
+            "skip": 0.02,
+            "notify": 0,
+            "show": 0.98
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 699,
+        "output_tokens": 89
+      },
+      "latencyMs": 264
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.5",
+      "title": "0.156.0-alpha.5",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.5",
+      "baseline": {
+        "category": "release",
+        "important": false,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.5",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "research": 0,
+            "other": 0,
+            "release": 1,
+            "opinion": 0,
+            "outage": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.96,
+          "probabilities": {
+            "notify": 0,
+            "show": 0.97,
+            "skip": 0.03
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 699,
+        "output_tokens": 89
+      },
+      "latencyMs": 311
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.4",
+      "title": "0.156.0-alpha.4",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.4",
+      "baseline": {
+        "category": "release",
+        "important": false,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.4",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "outage": 0,
+            "opinion": 0,
+            "other": 0,
+            "research": 0,
+            "release": 1
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.96,
+          "probabilities": {
+            "show": 0.98,
+            "skip": 0.02,
+            "notify": 0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 699,
+        "output_tokens": 89
+      },
+      "latencyMs": 293
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+      "title": "v2.1.278",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+        "category": "release",
+        "action": "notify",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "release": 1,
+            "research": 0,
+            "other": 0,
+            "opinion": 0,
+            "outage": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.28,
+          "probabilities": {
+            "skip": 0,
+            "notify": 0.47,
+            "show": 0.53
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 797,
+        "output_tokens": 89
+      },
+      "latencyMs": 309
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "title": "v2.1.277",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+        "category": "release",
+        "action": "notify",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "other": 0,
+            "research": 0,
+            "opinion": 0,
+            "release": 1,
+            "outage": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.86,
+          "probabilities": {
+            "show": 0.91,
+            "skip": 0,
+            "notify": 0.09
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 822,
+        "output_tokens": 89
+      },
+      "latencyMs": 249
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+      "title": "v2.1.276",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+        "category": "release",
+        "action": "notify",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 0.99,
+          "probabilities": {
+            "opinion": 0,
+            "research": 0,
+            "other": 0,
+            "outage": 0,
+            "release": 1
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.43,
+          "probabilities": {
+            "show": 0.62,
+            "skip": 0.01,
+            "notify": 0.37
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 735,
+        "output_tokens": 89
+      },
+      "latencyMs": 271
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+      "title": "v2.1.275",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+        "category": "release",
+        "action": "notify",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "outage": 0,
+            "research": 0,
+            "release": 1,
+            "other": 0,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.87,
+          "probabilities": {
+            "skip": 0.01,
+            "show": 0.91,
+            "notify": 0.08
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 807,
+        "output_tokens": 89
+      },
+      "latencyMs": 405
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+      "title": "v2.1.274",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+        "category": "release",
+        "action": "show",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "other": 0,
+            "opinion": 0,
+            "outage": 0,
+            "release": 1,
+            "research": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.94,
+          "probabilities": {
+            "notify": 0.04,
+            "skip": 0,
+            "show": 0.96
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 815,
+        "output_tokens": 89
+      },
+      "latencyMs": 249
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "title": "v2.1.273",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+        "category": "release",
+        "action": "show",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "outage": 0,
+            "release": 1,
+            "other": 0,
+            "opinion": 0,
+            "research": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.85,
+          "probabilities": {
+            "skip": 0,
+            "notify": 0.1,
+            "show": 0.9
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 823,
+        "output_tokens": 89
+      },
+      "latencyMs": 273
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+      "title": "v2.1.272",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+        "category": "release",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 0.99,
+          "probabilities": {
+            "release": 1,
+            "outage": 0,
+            "other": 0,
+            "opinion": 0,
+            "research": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.85,
+          "probabilities": {
+            "skip": 0.09,
+            "show": 0.91,
+            "notify": 0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 693,
+        "output_tokens": 89
+      },
+      "latencyMs": 326
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+      "title": "v2.1.271",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+      "baseline": {
+        "category": "release",
+        "important": true,
+        "reason": "Published in the project’s official release feed. Prereleases stay out of Important."
+      },
+      "reference": {
+        "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+        "category": "release",
+        "action": "notify",
+        "ambiguous": true
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "release",
+          "confidence": 1,
+          "probabilities": {
+            "release": 1,
+            "research": 0,
+            "opinion": 0,
+            "other": 0,
+            "outage": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.81,
+          "probabilities": {
+            "skip": 0,
+            "show": 0.87,
+            "notify": 0.13
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 818,
+        "output_tokens": 89
+      },
+      "latencyMs": 302
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2VA7X37P1ASADSNZ1CG4N4D",
+      "title": "Overbilling for OpenAI-hosted containers in the Agent API",
+      "url": "https://status.openai.com//incidents/01M2VA7X37P1ASADSNZ1CG4N4D",
+      "baseline": {
+        "category": "incident",
+        "important": false,
+        "reason": "Official service-status update. Read the incident for its current state."
+      },
+      "reference": {
+        "id": "openai-status:https://status.openai.com//incidents/01M2VA7X37P1ASADSNZ1CG4N4D",
+        "category": "outage",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "outage",
+          "confidence": 0.98,
+          "probabilities": {
+            "outage": 0.99,
+            "other": 0.01,
+            "research": 0,
+            "release": 0,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.97,
+          "probabilities": {
+            "notify": 0.01,
+            "show": 0.98,
+            "skip": 0.01
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 708,
+        "output_tokens": 90
+      },
+      "latencyMs": 323
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T",
+      "title": "Delayed support responses",
+      "url": "https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T",
+      "baseline": {
+        "category": "incident",
+        "important": false,
+        "reason": "Official service-status update. Read the incident for its current state."
+      },
+      "reference": {
+        "id": "openai-status:https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T",
+        "category": "outage",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "outage",
+          "confidence": 1,
+          "probabilities": {
+            "release": 0,
+            "outage": 1,
+            "other": 0,
+            "opinion": 0,
+            "research": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.93,
+          "probabilities": {
+            "skip": 0.04,
+            "show": 0.96,
+            "notify": 0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 695,
+        "output_tokens": 90
+      },
+      "latencyMs": 281
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2VBZB1RYSMXHZNRA25ZJ36X",
+      "title": "SSO sign-in and SCIM provisioning issues",
+      "url": "https://status.openai.com//incidents/01M2VBZB1RYSMXHZNRA25ZJ36X",
+      "baseline": {
+        "category": "incident",
+        "important": false,
+        "reason": "Official service-status update. Read the incident for its current state."
+      },
+      "reference": {
+        "id": "openai-status:https://status.openai.com//incidents/01M2VBZB1RYSMXHZNRA25ZJ36X",
+        "category": "outage",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "outage",
+          "confidence": 1,
+          "probabilities": {
+            "opinion": 0,
+            "release": 0,
+            "outage": 1,
+            "research": 0,
+            "other": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.94,
+          "probabilities": {
+            "notify": 0.01,
+            "skip": 0.03,
+            "show": 0.96
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 701,
+        "output_tokens": 90
+      },
+      "latencyMs": 252
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
+      "title": "We are seeing elevated error rates across API models",
+      "url": "https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
+      "baseline": {
+        "category": "incident",
+        "important": false,
+        "reason": "Official service-status update. Read the incident for its current state."
+      },
+      "reference": {
+        "id": "openai-status:https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
+        "category": "outage",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "outage",
+          "confidence": 1,
+          "probabilities": {
+            "release": 0,
+            "other": 0,
+            "outage": 1,
+            "opinion": 0,
+            "research": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.97,
+          "probabilities": {
+            "skip": 0.01,
+            "show": 0.98,
+            "notify": 0.01
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 800,
+        "output_tokens": 90
+      },
+      "latencyMs": 258
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2RC0WHGTX8EHDH7D60JJ7FC",
+      "title": "Elevated errors affecting ChatGPT Work mode",
+      "url": "https://status.openai.com//incidents/01M2RC0WHGTX8EHDH7D60JJ7FC",
+      "baseline": {
+        "category": "incident",
+        "important": false,
+        "reason": "Official service-status update. Read the incident for its current state."
+      },
+      "reference": {
+        "id": "openai-status:https://status.openai.com//incidents/01M2RC0WHGTX8EHDH7D60JJ7FC",
+        "category": "outage",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "outage",
+          "confidence": 1,
+          "probabilities": {
+            "release": 0,
+            "other": 0,
+            "opinion": 0,
+            "outage": 1,
+            "research": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.96,
+          "probabilities": {
+            "notify": 0.01,
+            "skip": 0.02,
+            "show": 0.97
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 712,
+        "output_tokens": 90
+      },
+      "latencyMs": 309
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2NRHTYAM3K3M93X1D068MCY",
+      "title": "Elevated errors in ChatGPT Work",
+      "url": "https://status.openai.com//incidents/01M2NRHTYAM3K3M93X1D068MCY",
+      "baseline": {
+        "category": "incident",
+        "important": false,
+        "reason": "Official service-status update. Read the incident for its current state."
+      },
+      "reference": {
+        "id": "openai-status:https://status.openai.com//incidents/01M2NRHTYAM3K3M93X1D068MCY",
+        "category": "outage",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "outage",
+          "confidence": 1,
+          "probabilities": {
+            "outage": 1,
+            "other": 0,
+            "research": 0,
+            "release": 0,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.97,
+          "probabilities": {
+            "notify": 0.01,
+            "skip": 0.02,
+            "show": 0.97
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 711,
+        "output_tokens": 90
+      },
+      "latencyMs": 294
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2KQNE5C42NEZPX6V01NHH5W",
+      "title": "Elevated errors with gpt-image-2.5-flare",
+      "url": "https://status.openai.com//incidents/01M2KQNE5C42NEZPX6V01NHH5W",
+      "baseline": {
+        "category": "incident",
+        "important": false,
+        "reason": "Official service-status update. Read the incident for its current state."
+      },
+      "reference": {
+        "id": "openai-status:https://status.openai.com//incidents/01M2KQNE5C42NEZPX6V01NHH5W",
+        "category": "outage",
+        "action": "show",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "outage",
+          "confidence": 1,
+          "probabilities": {
+            "research": 0,
+            "release": 0,
+            "opinion": 0,
+            "other": 0,
+            "outage": 1
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.96,
+          "probabilities": {
+            "show": 0.97,
+            "notify": 0.01,
+            "skip": 0.02
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 715,
+        "output_tokens": 90
+      },
+      "latencyMs": 264
+    },
+    {
+      "id": "openai-status:https://status.openai.com//incidents/01M2JZR57HRQTKQGTCWG31M3AS",
+      "title": "Ads Manager login issues",
+      "url": "https://status.openai.com//incidents/01M2JZR57HRQTKQGTCWG31M3AS",
+      "baseline": {
+        "category": "incident",
+        "important": false,
+        "reason": "Official service-status update. Read the incident for its current state."
+      },
+      "reference": {
+        "id": "openai-status:https://status.openai.com//incidents/01M2JZR57HRQTKQGTCWG31M3AS",
+        "category": "outage",
+        "action": "skip",
+        "ambiguous": false
+      },
+      "model": "jev-1.13.0",
+      "answers": {
+        "category": {
+          "type": "choice",
+          "choice": "outage",
+          "confidence": 1,
+          "probabilities": {
+            "outage": 1,
+            "research": 0,
+            "other": 0,
+            "release": 0,
+            "opinion": 0
+          }
+        },
+        "action": {
+          "type": "choice",
+          "choice": "show",
+          "confidence": 0.75,
+          "probabilities": {
+            "skip": 0.16,
+            "show": 0.84,
+            "notify": 0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 707,
+        "output_tokens": 90
+      },
+      "latencyMs": 298
+    }
+  ]
+}

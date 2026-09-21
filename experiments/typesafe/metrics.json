@@ -1,0 +1,33 @@
+{
+  "items": 40,
+  "inputTokens": 28964,
+  "estimatedUSD": 0.001216488,
+  "pricingAssumption": "$42 per billion input tokens; output free. Estimate, not an invoice.",
+  "medianMs": 294,
+  "p95Ms": 326,
+  "categoryAgreement": 40,
+  "actionAgreement": {
+    "correct": 25,
+    "total": 40
+  },
+  "baselineActionAgreement": {
+    "correct": 29,
+    "total": 40
+  },
+  "unambiguousActionAgreement": {
+    "correct": 21,
+    "total": 29
+  },
+  "notifyDisagreements": [],
+  "missedReferenceNotify": [
+    "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "Introducing agentic video understanding with Gemini",
+    "Gemini Omni 1.1 Flash lets you build with more control",
+    "v2.1.278",
+    "v2.1.277",
+    "v2.1.276",
+    "v2.1.275",
+    "v2.1.271"
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "openai:https://openai.com/index/unlocking-new-ways-of-working",
+    "title": "How workers are unlocking new ways of working",
+    "url": "https://openai.com/index/unlocking-new-ways-of-working",
+    "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+    "publishedAt": "2026-09-16T09:00:00.000Z",
+    "sourceId": "openai",
+    "sourceName": "OpenAI",
+    "set": "fresh",
+    "expected": "show"
+  },
+  {
+    "id": "openai:https://openai.com/index/fyxer",
+    "title": "How Fyxer built an AI executive assistant people trust",
+    "url": "https://openai.com/index/fyxer",
+    "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+    "publishedAt": "2026-09-14T12:00:00.000Z",
+    "sourceId": "openai",
+    "sourceName": "OpenAI",
+    "set": "fresh",
+    "expected": "skip"
+  },
+  {
+    "id": "deepmind:https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+    "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+    "publishedAt": "2026-08-26T17:01:00.000Z",
+    "sourceId": "deepmind",
+    "sourceName": "Google DeepMind",
+    "set": "fresh",
+    "expected": "notify"
+  },
+  {
+    "id": "deepmind:https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+    "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+    "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+    "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+    "publishedAt": "2026-08-21T11:59:48.000Z",
+    "sourceId": "deepmind",
+    "sourceName": "Google DeepMind",
+    "set": "fresh",
+    "expected": "show"
+  },
+  {
+    "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.3",
+    "title": "0.156.0-alpha.3",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.3",
+    "summary": "Release 0.156.0-alpha.3",
+    "publishedAt": "2026-09-18T18:31:35.000Z",
+    "sourceId": "codex",
+    "sourceName": "Codex",
+    "set": "fresh",
+    "expected": "show"
+  },
+  {
+    "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.2",
+    "title": "0.156.0-alpha.2",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.2",
+    "summary": "Release 0.156.0-alpha.2",
+    "publishedAt": "2026-09-18T05:04:39.000Z",
+    "sourceId": "codex",
+    "sourceName": "Codex",
+    "set": "fresh",
+    "expected": "show"
+  },
+  {
+    "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+    "title": "v2.1.270",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+    "summary": "What's changed Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
+    "publishedAt": "2026-09-12T19:45:44.000Z",
+    "sourceId": "claude-code",
+    "sourceName": "Claude Code",
+    "set": "fresh",
+    "expected": "show"
+  },
+  {
+    "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+    "title": "v2.1.269",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+    "summary": "What's changed Added claude plugin eval : run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see claude plugin eval --help Added /output-style [name] to list and switch output styles, including over Remote Control and in cloud and other headless sessions Added a diff of the files a Bash command changed to the Bash tool result when the Bash tool handles file edits (setting bashEditDiffEnabled ) Added OTEL_METRICS_INCLUDE_REPOSITORY to tag OpenTelemetry metrics and events with vcs.* repository attributes; commit events get vcs.ref.head.* with",
+    "publishedAt": "2026-09-11T19:17:55.000Z",
+    "sourceId": "claude-code",
+    "sourceName": "Claude Code",
+    "set": "fresh",
+    "expected": "notify"
+  },
+  {
+    "id": "openai-status:https://status.openai.com//incidents/01M2HYH64J2CZMZ63HEV2FCQFA",
+    "title": "Elevated errors from GPT-5.6 and GPT-5.6 Instant on paid plans",
+    "url": "https://status.openai.com//incidents/01M2HYH64J2CZMZ63HEV2FCQFA",
+    "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
+    "publishedAt": "2026-09-15T07:53:36.000Z",
+    "sourceId": "openai-status",
+    "sourceName": "OpenAI Status",
+    "set": "fresh",
+    "expected": "show"
+  },
+  {
+    "id": "openai-status:https://status.openai.com//incidents/01M2GA8XTS6VB3QCDEGZ0HNAQ5",
+    "title": "Elevated errors affecting Work Mode in ChatGPT",
+    "url": "https://status.openai.com//incidents/01M2GA8XTS6VB3QCDEGZ0HNAQ5",
+    "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational)",
+    "publishedAt": "2026-09-15T03:11:36.000Z",
+    "sourceId": "openai-status",
+    "sourceName": "OpenAI Status",
+    "set": "fresh",
+    "expected": "show"
+  },
+  {
+    "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+    "summary": "We are launching Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking to make voice interactions more natural, fluid, and intelligent. These models handle complex reasoning, real-time visual context, and background task execution without interrupting your conversation. You can start using these features today through the Gemini API, Google Workspace, and the Gemini app.",
+    "publishedAt": "2026-09-15T17:05:57.000Z",
+    "sourceId": "deepmind",
+    "sourceName": "Google DeepMind",
+    "set": "diagnostic",
+    "expected": "notify"
+  },
+  {
+    "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+    "title": "v2.1.276",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+    "summary": "What's changed Fixed every request failing with 400 … Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
+    "publishedAt": "2026-09-18T02:12:26.000Z",
+    "sourceId": "claude-code",
+    "sourceName": "Claude Code",
+    "set": "diagnostic",
+    "expected": "notify"
+  }
+]

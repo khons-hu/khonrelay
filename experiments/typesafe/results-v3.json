@@ -1,0 +1,338 @@
+[
+  {
+    "id": "openai:https://openai.com/index/unlocking-new-ways-of-working",
+    "title": "How workers are unlocking new ways of working",
+    "set": "fresh",
+    "expected": "show",
+    "action": "show",
+    "baseline": "show",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.58
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.03
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.04
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 520,
+      "output_tokens": 55
+    },
+    "ms": 815
+  },
+  {
+    "id": "openai:https://openai.com/index/fyxer",
+    "title": "How Fyxer built an AI executive assistant people trust",
+    "set": "fresh",
+    "expected": "skip",
+    "action": "show",
+    "baseline": "show",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.37
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.07
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.05
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 532,
+      "output_tokens": 55
+    },
+    "ms": 285
+  },
+  {
+    "id": "deepmind:https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "set": "fresh",
+    "expected": "notify",
+    "action": "show",
+    "baseline": "show",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.64
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.45
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.14
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 523,
+      "output_tokens": 55
+    },
+    "ms": 322
+  },
+  {
+    "id": "deepmind:https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+    "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+    "set": "fresh",
+    "expected": "show",
+    "action": "show",
+    "baseline": "show",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.76
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.07
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.09
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 520,
+      "output_tokens": 55
+    },
+    "ms": 252
+  },
+  {
+    "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.3",
+    "title": "0.156.0-alpha.3",
+    "set": "fresh",
+    "expected": "show",
+    "action": "show",
+    "baseline": "show",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.59
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.06
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.91
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 508,
+      "output_tokens": 55
+    },
+    "ms": 273
+  },
+  {
+    "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.2",
+    "title": "0.156.0-alpha.2",
+    "set": "fresh",
+    "expected": "show",
+    "action": "show",
+    "baseline": "show",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.58
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.07
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.92
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 508,
+      "output_tokens": 55
+    },
+    "ms": 311
+  },
+  {
+    "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+    "title": "v2.1.270",
+    "set": "fresh",
+    "expected": "show",
+    "action": "notify",
+    "baseline": "notify",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.88
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.8
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.05
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 531,
+      "output_tokens": 55
+    },
+    "ms": 489
+  },
+  {
+    "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+    "title": "v2.1.269",
+    "set": "fresh",
+    "expected": "notify",
+    "action": "notify",
+    "baseline": "notify",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.96
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.89
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.1
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 628,
+      "output_tokens": 55
+    },
+    "ms": 419
+  },
+  {
+    "id": "openai-status:https://status.openai.com//incidents/01M2HYH64J2CZMZ63HEV2FCQFA",
+    "title": "Elevated errors from GPT-5.6 and GPT-5.6 Instant on paid plans",
+    "set": "fresh",
+    "expected": "show",
+    "action": "show",
+    "baseline": "show",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.91
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.68
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.98
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 532,
+      "output_tokens": 55
+    },
+    "ms": 305
+  },
+  {
+    "id": "openai-status:https://status.openai.com//incidents/01M2GA8XTS6VB3QCDEGZ0HNAQ5",
+    "title": "Elevated errors affecting Work Mode in ChatGPT",
+    "set": "fresh",
+    "expected": "show",
+    "action": "show",
+    "baseline": "show",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.89
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.73
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.97
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 522,
+      "output_tokens": 55
+    },
+    "ms": 300
+  },
+  {
+    "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "set": "diagnostic",
+    "expected": "notify",
+    "action": "notify",
+    "baseline": "notify",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.81
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.77
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.1
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 577,
+      "output_tokens": 55
+    },
+    "ms": 375
+  },
+  {
+    "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+    "title": "v2.1.276",
+    "set": "diagnostic",
+    "expected": "notify",
+    "action": "notify",
+    "baseline": "notify",
+    "answers": {
+      "relevant": {
+        "type": "noul",
+        "noul": 0.9
+      },
+      "impact": {
+        "type": "noul",
+        "noul": 0.93
+      },
+      "suppress": {
+        "type": "noul",
+        "noul": 0.06
+      }
+    },
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 544,
+      "output_tokens": 55
+    },
+    "ms": 258
+  }
+]
