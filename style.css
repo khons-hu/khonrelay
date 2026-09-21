@@ -22,3 +22,6 @@ fieldset>button{margin:0 6px 6px 0}
 /* Long translated titles must yield space to the close control. */
 .dialog-head{min-width:0}.dialog-head h2{min-width:0;overflow-wrap:anywhere}.dialog-head button{flex-shrink:0}
 @media(max-width:380px){dialog{padding:20px}.dialog-head h2{font-size:24px;hyphens:auto}}
+
+/* Motion preference: System follows the OS. On and Off are explicit visitor choices. */
+.motion-control{white-space:nowrap;font-size:11px!important}.motion-off *,.motion-off *::before,.motion-off *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){html:not(.motion-force-on){scroll-behavior:auto}html:not(.motion-force-on) *,html:not(.motion-force-on) *::before,html:not(.motion-force-on) *::after{animation:none!important;transition:none!important}}
