@@ -1,43 +1,43 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-09-21T13:01:34.908Z",
+  "generatedAt": "2026-09-22T11:51:38.768Z",
   "items": [
+    {
+      "id": "openai:https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "score": 0.61
+    },
+    {
+      "id": "openai:https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "score": 0.26
+    },
+    {
+      "id": "openai:https://openai.com/index/building-standards-next-phase-ai",
+      "title": "Building standards for the next phase of AI",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "score": 0.48
+    },
+    {
+      "id": "openai:https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "score": 0.22
+    },
+    {
+      "id": "openai:https://openai.com/index/v7",
+      "title": "How V7 gives AI agents institutional memory",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "score": 0.65
+    },
     {
       "id": "openai:https://openai.com/index/australian-youth-safety-blueprint",
       "title": "Introducing the Australian Youth Safety Blueprint",
       "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
       "score": 0.19
-    },
-    {
-      "id": "openai:https://openai.com/index/cooley-gopublic",
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-      "score": 0.32
-    },
-    {
-      "id": "openai:https://openai.com/index/astra-for-law",
-      "title": "Introducing Astra for Law",
-      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-      "score": 0.24
-    },
-    {
-      "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "title": "Helping older adults use AI in everyday life",
-      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "score": 0.41
-    },
-    {
-      "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
-      "title": "Reimagining advertising with AI",
-      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-      "score": 0.17
-    },
-    {
-      "id": "openai:https://openai.com/index/hex-gpt-6-astra",
-      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-      "score": 0.59
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
@@ -76,40 +76,40 @@
       "score": 0.66
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.14",
-      "title": "0.156.0-alpha.14",
-      "summary": "Release 0.156.0-alpha.14",
-      "score": 0.59
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.8",
+      "title": "rust-v0.157.0-alpha.8",
+      "summary": "Release 0.157.0-alpha.8",
+      "score": 0.6
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.13",
-      "title": "0.156.0-alpha.13",
-      "summary": "Release 0.156.0-alpha.13",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.7",
+      "title": "0.157.0-alpha.7",
+      "summary": "Release 0.157.0-alpha.7",
       "score": 0.57
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.12",
-      "title": "0.156.0-alpha.12",
-      "summary": "Release 0.156.0-alpha.12",
-      "score": 0.58
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.6",
+      "title": "0.157.0-alpha.6",
+      "summary": "Release 0.157.0-alpha.6",
+      "score": 0.56
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.11",
-      "title": "0.156.0-alpha.11",
-      "summary": "Release 0.156.0-alpha.11",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.5",
+      "title": "0.157.0-alpha.5",
+      "summary": "Release 0.157.0-alpha.5",
       "score": 0.57
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.10",
-      "title": "0.156.0-alpha.10",
-      "summary": "Release 0.156.0-alpha.10",
-      "score": 0.58
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.4",
+      "title": "0.157.0-alpha.4",
+      "summary": "Release 0.157.0-alpha.4",
+      "score": 0.56
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.0-alpha.9",
-      "title": "0.156.0-alpha.9",
-      "summary": "Release 0.156.0-alpha.9",
-      "score": 0.58
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.3",
+      "title": "0.157.0-alpha.3",
+      "summary": "Release 0.157.0-alpha.3",
+      "score": 0.57
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
@@ -148,6 +148,12 @@
       "score": 0.96
     },
     {
+      "id": "openai-status:https://status.openai.com//incidents/01M348TX2DX7KPM9X857N4APNV",
+      "title": "Increased error rate for Plus and Pro users.",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
+      "score": 0.86
+    },
+    {
       "id": "openai-status:https://status.openai.com//incidents/01M2VA7X37P1ASADSNZ1CG4N4D",
       "title": "Overbilling for OpenAI-hosted containers in the Agent API",
       "summary": "Status: Resolved All impacted services have now fully recovered.",
@@ -168,20 +174,14 @@
     {
       "id": "openai-status:https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
       "title": "We are seeing elevated error rates across API models",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Images (Operational) Batch (Operational) Chat Completions (Operational) Audio (Operational) Realtime (Operational) Embeddings (Operational) Moderations (Operational) Responses (Operational) Fine-tuning (Operational) Files (Operational) Login (Operational) Sora (Operational)",
-      "score": 0.95
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Moderations (Operational) Responses (Operational) Sora (Operational) Batch (Operational) Chat Completions (Operational) Audio (Operational) Realtime (Operational) Files (Operational) Embeddings (Operational) Login (Operational) Images (Operational) Fine-tuning (Operational)",
+      "score": 0.94
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M2RC0WHGTX8EHDH7D60JJ7FC",
       "title": "Elevated errors affecting ChatGPT Work mode",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational)",
       "score": 0.91
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M2NRHTYAM3K3M93X1D068MCY",
-      "title": "Elevated errors in ChatGPT Work",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational)",
-      "score": 0.9
     }
   ]
 }
