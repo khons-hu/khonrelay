@@ -22,3 +22,8 @@ test('static markers are cataloged and localization module is shipped and cached
  assert.match(await readFile('dist/sw.js','utf8'),/\/i18n\.js/);
  assert.match(await readFile('dist/i18n.js','utf8'),/Slovenčina/);
 });
+test('every local script referenced by the page is present in the production build',async()=>{
+ const html=await readFile('dist/index.html','utf8');
+ for(const match of html.matchAll(/<script[^>]+src="\/(.*?)"/g))assert.ok((await readFile('dist/'+match[1],'utf8')).trim(),match[1]);
+ assert.match(await readFile('dist/sw.js','utf8'),/\/motion\.js/);
+});
