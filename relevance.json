@@ -1,55 +1,67 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-09-23T11:51:10.161Z",
+  "generatedAt": "2026-09-24T11:58:33.353Z",
   "items": [
     {
-      "id": "openai:https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-      "score": 0.25
+      "id": "openai:https://openai.com/index/two-years-of-openai-academy",
+      "title": "Two years of OpenAI Academy",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "score": 0.21
     },
     {
-      "id": "openai:https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "title": "Better prompt caching for GPT-6",
-      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-      "score": 0.89
-    },
-    {
-      "id": "openai:https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "title": "Introducing GPT-6 Sol and Luna",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "score": 0.71
-    },
-    {
-      "id": "openai:https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "id": "openai:https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
       "score": 0.6
     },
     {
-      "id": "openai:https://openai.com/index/priorities-principles-third-party-assessments",
-      "title": "Priorities and principles for effective third party assessments",
-      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "score": 0.59
+      "id": "openai:https://openai.com/index/sam-altman-un-security-council-remarks",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "score": 0.29
     },
     {
-      "id": "openai:https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "score": 0.26
+      "id": "openai:https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "score": 0.45
+    },
+    {
+      "id": "openai:https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "score": 0.25
+    },
+    {
+      "id": "openai:https://openai.com/index/ringg",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "score": 0.29
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "score": 0.64
+    },
+    {
+      "id": "deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "summary": "",
+      "score": 0.63
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
       "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "summary": "",
-      "score": 0.67
+      "score": 0.68
     },
     {
       "id": "deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
       "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
       "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
-      "score": 0.28
+      "score": 0.3
     },
     {
       "id": "deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
@@ -61,61 +73,55 @@
       "id": "deepmind:https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
       "title": "Proactive cyber defense for governments and enterprises",
       "summary": "",
-      "score": 0.3
+      "score": 0.28
     },
     {
-      "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "",
-      "score": 0.65
-    },
-    {
-      "id": "deepmind:https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-      "title": "Introducing agentic video understanding with Gemini",
-      "summary": "",
-      "score": 0.66
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.1",
-      "title": "rust-v0.158.0-alpha.1",
-      "summary": "Release 0.158.0-alpha.1",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.8",
+      "title": "0.158.0-alpha.8",
+      "summary": "Release 0.158.0-alpha.8",
       "score": 0.57
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.11",
-      "title": "0.157.0-alpha.11",
-      "summary": "Release 0.157.0-alpha.11",
-      "score": 0.59
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.7",
+      "title": "0.158.0-alpha.7",
+      "summary": "Release 0.158.0-alpha.7",
+      "score": 0.57
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.156.1",
-      "title": "0.156.1",
-      "summary": "New Features Choose GPT-6 Sol or GPT-6 Luna from the model picker. The rate-limit switch prompt now recommends GPT-6 Luna. ( #47405 ) Changelog Full Changelog: rust-v0.156.0...rust-v0.156.1 #47405 [hotfix 0.156.0] Add GPT-6 Sol and Luna to the model catalog ( #47332 ) @imac-oai",
-      "score": 0.91
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.16.3",
-      "title": "0.155.0-alpha.16.3",
-      "summary": "Release 0.155.0-alpha.16.3",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.6",
+      "title": "0.158.0-alpha.6",
+      "summary": "Release 0.158.0-alpha.6",
       "score": 0.58
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.10",
-      "title": "0.157.0-alpha.10",
-      "summary": "Release 0.157.0-alpha.10",
-      "score": 0.59
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.5",
+      "title": "0.158.0-alpha.5",
+      "summary": "Release 0.158.0-alpha.5",
+      "score": 0.57
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.157.0-alpha.9",
-      "title": "0.157.0-alpha.9",
-      "summary": "Release 0.157.0-alpha.9",
-      "score": 0.59
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.4",
+      "title": "0.158.0-alpha.4",
+      "summary": "Release 0.158.0-alpha.4",
+      "score": 0.58
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.3",
+      "title": "0.158.0-alpha.3",
+      "summary": "Release 0.158.0-alpha.3",
+      "score": 0.57
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+      "title": "v2.1.281",
+      "summary": "What's changed Added Claude apps gateway support for newer Claude Desktop keys in desktop policy blocks, including blockReadsOutsideWorkingDirectories and disableBypassPermissionsMode Added assume_role on Claude apps gateway Bedrock upstreams: the gateway calls Bedrock as an IAM role it assumes through STS, in another AWS account if needed, optionally one session per developer Added guardrail: {id, version} on Claude apps gateway Bedrock upstreams to apply an Amazon Bedrock guardrail to every request sent through them (set it on all Bedrock upstreams or none) Added telemetry.resource_attribute",
+      "score": 0.94
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
       "title": "v2.1.280",
       "summary": "What's changed Added Claude Opus 5.5 ( claude-opus-5-5 ), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads Added mouse support to more lists in fullscreen mode: the wheel scrolls the /skills list, and a skill's state options in /plugin can be clicked Added CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH to change the 2,048-character cap on MCP tool descriptions and server instructions for every MCP server in the session Added hook output sizes and the number of oversized outputs saved to a file to the hook_execution_complete OpenTelemetry event Fixed writes through a",
-      "score": 0.95
+      "score": 0.96
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
@@ -133,7 +139,7 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
       "title": "v2.1.276",
       "summary": "What's changed Fixed every request failing with 400 … Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-      "score": 0.91
+      "score": 0.9
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
@@ -142,10 +148,10 @@
       "score": 0.95
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
-      "title": "v2.1.274",
-      "summary": "What's changed Added a visible warning when memory usage is critical, with steps to free memory or restart safely Added CLAUDE_CODE_MCP_STARTUP_WAIT_MS to bound how long the first non-interactive turn waits for connecting MCP servers ( 0 = don't wait) Added effort attribute to the claude_code.llm_request OpenTelemetry trace span, matching the api_request event Added claude_code.managed_settings_resolved OTel event: managed-settings sources and policy helper state; redacted settings and digests with OTEL_LOG_MANAGED_SETTINGS=1 Added store.connect_timeout_seconds to the Claude apps gateway confi",
-      "score": 0.95
+      "id": "openai-status:https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
+      "title": "Mobile users unable to see Work Mode and the Model Picker",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex in ChatGPT Desktop (Operational) Agent (Operational) Deep Research (Operational) ChatGPT Atlas (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational) Login (Operational) Voice mode (Operational) Search (Operational) Conversations (Operational) Image Generation (Operational) Sites (Operational) File uploads (Operational) Compliance API (Operational) GPTs (Operational)",
+      "score": 0.92
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M36RMC01ZFWQ861WYJKC4XE1",
@@ -157,7 +163,7 @@
       "id": "openai-status:https://status.openai.com//incidents/01M34TAFM9WBGEBE3G1GBH4SE8",
       "title": "Elevated Error Rates for ChatGPT Work, across Plus, Pro, Business, Enterprise and Education plans.",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational)",
-      "score": 0.88
+      "score": 0.87
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M348TX2DX7KPM9X857N4APNV",
@@ -169,19 +175,13 @@
       "id": "openai-status:https://status.openai.com//incidents/01M2VA7X37P1ASADSNZ1CG4N4D",
       "title": "Overbilling for OpenAI-hosted containers in the Agent API",
       "summary": "Status: Resolved All impacted services have now fully recovered.",
-      "score": 0.89
+      "score": 0.9
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T",
       "title": "Delayed support responses",
       "summary": "Status: Resolved All impacted services have now fully recovered.",
-      "score": 0.85
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M2VBZB1RYSMXHZNRA25ZJ36X",
-      "title": "SSO sign-in and SCIM provisioning issues",
-      "summary": "Status: Resolved All impacted services have now fully recovered.",
-      "score": 0.84
+      "score": 0.86
     }
   ]
 }
