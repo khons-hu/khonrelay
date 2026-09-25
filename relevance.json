@@ -1,13 +1,13 @@
 {
   "version": 1,
   "model": "jev-1.13.0",
-  "generatedAt": "2026-09-24T11:58:33.353Z",
+  "generatedAt": "2026-09-25T11:59:34.846Z",
   "items": [
     {
       "id": "openai:https://openai.com/index/two-years-of-openai-academy",
       "title": "Two years of OpenAI Academy",
       "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "score": 0.21
+      "score": 0.2
     },
     {
       "id": "openai:https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
@@ -19,7 +19,7 @@
       "id": "openai:https://openai.com/index/sam-altman-un-security-council-remarks",
       "title": "Sam Altman’s remarks at the United Nations Security Council",
       "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "score": 0.29
+      "score": 0.28
     },
     {
       "id": "openai:https://openai.com/index/harvey-from-context-to-confidence-with-astra",
@@ -31,7 +31,7 @@
       "id": "openai:https://openai.com/index/invideo-builds-with-gpt-6-astra",
       "title": "How invideo improves color grading 3x with GPT‑6 Astra",
       "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "score": 0.25
+      "score": 0.26
     },
     {
       "id": "openai:https://openai.com/index/ringg",
@@ -40,10 +40,16 @@
       "score": 0.29
     },
     {
+      "id": "deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "summary": "",
+      "score": 0.57
+    },
+    {
       "id": "deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
       "title": "Advancing Private AI Compute with secure, server-side memory",
       "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
-      "score": 0.64
+      "score": 0.66
     },
     {
       "id": "deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
@@ -55,7 +61,7 @@
       "id": "deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
       "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "summary": "",
-      "score": 0.68
+      "score": 0.67
     },
     {
       "id": "deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
@@ -67,49 +73,49 @@
       "id": "deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
       "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
       "summary": "",
-      "score": 0.46
+      "score": 0.49
     },
     {
-      "id": "deepmind:https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "summary": "",
-      "score": 0.28
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.14",
+      "title": "rust-v0.158.0-alpha.14",
+      "summary": "Release 0.158.0-alpha.14",
+      "score": 0.55
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.8",
-      "title": "0.158.0-alpha.8",
-      "summary": "Release 0.158.0-alpha.8",
-      "score": 0.57
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.7",
-      "title": "0.158.0-alpha.7",
-      "summary": "Release 0.158.0-alpha.7",
-      "score": 0.57
-    },
-    {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.6",
-      "title": "0.158.0-alpha.6",
-      "summary": "Release 0.158.0-alpha.6",
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.13",
+      "title": "0.158.0-alpha.13",
+      "summary": "Release 0.158.0-alpha.13",
       "score": 0.58
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.5",
-      "title": "0.158.0-alpha.5",
-      "summary": "Release 0.158.0-alpha.5",
-      "score": 0.57
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.157.0",
+      "title": "0.157.0",
+      "summary": "New Features Added GPT-6 Sol and Luna, including Amazon Bedrock support and migration prompts for older models. ( #47332 , #47347 ) Enabled fullscreen transcripts by default and added Shift-click to extend text selections. ( #47178 , #47414 ) Enabled automatic background-server startup for eligible interactive sessions, with recovery choices when server settings are incompatible. ( #47179 , #47318 ) Added an f shortcut to fork conversations open in another app, preserving drafts and queued prompts. ( #47185 ) Made /import available in remote sessions and local background-server sessions. ( #47",
+      "score": 0.89
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.4",
-      "title": "0.158.0-alpha.4",
-      "summary": "Release 0.158.0-alpha.4",
-      "score": 0.58
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.12",
+      "title": "0.158.0-alpha.12",
+      "summary": "Release 0.158.0-alpha.12",
+      "score": 0.55
     },
     {
-      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.3",
-      "title": "0.158.0-alpha.3",
-      "summary": "Release 0.158.0-alpha.3",
-      "score": 0.57
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.11",
+      "title": "0.158.0-alpha.11",
+      "summary": "Release 0.158.0-alpha.11",
+      "score": 0.59
+    },
+    {
+      "id": "codex:https://github.com/openai/codex/releases/tag/rust-v0.158.0-alpha.10",
+      "title": "0.158.0-alpha.10",
+      "summary": "Release 0.158.0-alpha.10",
+      "score": 0.6
+    },
+    {
+      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
+      "title": "v2.1.282",
+      "summary": "What's changed Added a maxProseWidth setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width Added a startup notice, and /status and claude doctor entries, listing telemetry variables in a project's settings files that were ignored or that turned telemetry off Added the allowClaudeInChromeWithManagedMcp managed setting to let claude --chrome run alongside an exclusive managed-mcp.json ; the error shown when Chrome is blocked now names it Added store.readiness_grace_seconds to the Claude apps gateway so /readyz can stay ready through a sh",
+      "score": 0.95
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
@@ -121,7 +127,7 @@
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
       "title": "v2.1.280",
       "summary": "What's changed Added Claude Opus 5.5 ( claude-opus-5-5 ), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads Added mouse support to more lists in fullscreen mode: the wheel scrolls the /skills list, and a skill's state options in /plugin can be clicked Added CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH to change the 2,048-character cap on MCP tool descriptions and server instructions for every MCP server in the session Added hook output sizes and the number of oversized outputs saved to a file to the hook_execution_complete OpenTelemetry event Fixed writes through a",
-      "score": 0.96
+      "score": 0.95
     },
     {
       "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
@@ -142,46 +148,40 @@
       "score": 0.9
     },
     {
-      "id": "claude-code:https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
-      "title": "v2.1.275",
-      "summary": "What's changed Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and /status shows it Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that interrupts the current turn and sends all queued messages at once; sent and queued messages show in gray until the model receives them Added a startup warning when a configured otelHeadersHelper fails, so sessions that silently export no telemetry are noticed Added syncing of the skills and plugins enabled on your claude.ai account to terminal sessions signed in with it;",
-      "score": 0.95
+      "id": "openai-status:https://status.openai.com//incidents/01M3ACKDE4GYY67FXXNRRSC0CE",
+      "title": "Elevated Error Rates on GPT-6 Astra Pro",
+      "summary": "Status: Resolved All impacted services have now fully recovered.",
+      "score": 0.92
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
       "title": "Mobile users unable to see Work Mode and the Model Picker",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex in ChatGPT Desktop (Operational) Agent (Operational) Deep Research (Operational) ChatGPT Atlas (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational) Login (Operational) Voice mode (Operational) Search (Operational) Conversations (Operational) Image Generation (Operational) Sites (Operational) File uploads (Operational) Compliance API (Operational) GPTs (Operational)",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Search (Operational) Agent (Operational) Codex in ChatGPT Desktop (Operational) Login (Operational) Voice mode (Operational) Image Generation (Operational) GPTs (Operational) Deep Research (Operational) Connectors/Apps (Operational) ChatGPT Atlas (Operational) File uploads (Operational) Compliance API (Operational) ChatGPT Work (Operational) Sites (Operational) Conversations (Operational)",
       "score": 0.92
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M36RMC01ZFWQ861WYJKC4XE1",
       "title": "Elevated Error Rates for ChatGPT across Plus and Pro plans.",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
-      "score": 0.9
+      "score": 0.88
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M34TAFM9WBGEBE3G1GBH4SE8",
       "title": "Elevated Error Rates for ChatGPT Work, across Plus, Pro, Business, Enterprise and Education plans.",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational)",
-      "score": 0.87
+      "score": 0.88
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M348TX2DX7KPM9X857N4APNV",
       "title": "Increased error rate for Plus and Pro users.",
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
-      "score": 0.86
+      "score": 0.87
     },
     {
       "id": "openai-status:https://status.openai.com//incidents/01M2VA7X37P1ASADSNZ1CG4N4D",
       "title": "Overbilling for OpenAI-hosted containers in the Agent API",
       "summary": "Status: Resolved All impacted services have now fully recovered.",
-      "score": 0.9
-    },
-    {
-      "id": "openai-status:https://status.openai.com//incidents/01M2V76GEPJB0HQGRA0QERRZ3T",
-      "title": "Delayed support responses",
-      "summary": "Status: Resolved All impacted services have now fully recovered.",
-      "score": 0.86
+      "score": 0.91
     }
   ]
 }
